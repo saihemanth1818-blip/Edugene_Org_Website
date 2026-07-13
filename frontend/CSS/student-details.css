@@ -1,0 +1,11 @@
+/*
+  File: student-details.css
+  Description: Custom styles for the student details admin page.
+*/
+
+.student-details-section {
+    padding-top: 120px; /* Space for fixed navbar */
+    padding-bottom: 80px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}

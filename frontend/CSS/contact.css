@@ -1,0 +1,54 @@
+/*
+  File: contact.css
+  Description: Custom styles for the Contact Us page.
+*/
+
+/* ================================================ */
+/* NAVBAR OVERRIDES */
+/* ================================================ */
+.navbar-solid {
+    background: linear-gradient(45deg, #e9ecef, #f8f9fa);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-solid .brand-text,
+.navbar-solid .nav-link {
+    color: #0F172A;
+}
+/*
+  File: contact.css
+  Description: Custom styles for the Contact Us page.
+*/
+
+.contact-page-section {
+    padding-top: 120px; /* Space for fixed navbar */
+    padding-bottom: 80px;
+    background-color: #f8f9fa;
+}
+
+.contact-page-section .form-control {
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-page-section .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.contact-details i {
+    color: #007bff;
+}
+
+.contact-details span {
+    color: #6c757d;
+}
+
+.map-container {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    min-height: 250px; /* Ensure a minimum height for the map */
+}

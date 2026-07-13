@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Stack Course - EduGene Technologies</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <style>
+        .course-detail-section {
+            padding-top: 120px;
+            padding-bottom: 80px;
+        }
+        .course-detail-card {
+            position: sticky;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ================================================ -->
+    <!-- NAVBAR -->
+    <!-- ================================================ -->
+    <div id="navbar-placeholder"></div>
+
+    <main>
+        <!-- ================================================ -->
+        <!-- COURSE DETAIL SECTION -->
+        <!-- ================================================ -->
+        <section class="course-detail-section">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <h1 class="display-5 fw-bold mb-3">MERN Stack Developer</h1>
+                        <p class="lead text-muted mb-4">Build scalable, high-performance web applications with MongoDB, Express, React, and Node.js.</p>
+
+                        <!-- Tabs -->
+                        <ul class="nav nav-tabs" id="courseTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab">Overview</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum" type="button" role="tab">Curriculum</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor" type="button" role="tab">Instructor</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4" id="courseTabsContent">
+                            <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                                <h4>Course Description</h4>
+                                <p>The MERN stack is a popular choice for building modern, single-page web applications. This course provides end-to-end coverage of the MERN stack, enabling you to develop full-stack applications using JavaScript across the board.</p>
+                                <h4>What You'll Learn</h4>
+                                <ul>
+                                    <li>Building RESTful APIs with Node.js and Express.</li>
+                                    <li>Database modeling and management with MongoDB and Mongoose.</li>
+                                    <li>Creating dynamic user interfaces with React.</li>
+                                    <li>State management using React Hooks and Context API.</li>
+                                    <li>User authentication and authorization with JSON Web Tokens (JWT).</li>
+                                    <li>Deploying MERN stack applications to the cloud.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="curriculum" role="tabpanel">
+                                <div class="accordion" id="curriculumAccordion">
+                                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">Module 1: Node.js & Express</button></h2><div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#curriculumAccordion"><div class="accordion-body">Server-side JavaScript and building APIs.</div></div></div>
+                                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Module 2: MongoDB</button></h2><div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#curriculumAccordion"><div class="accordion-body">NoSQL databases and data modeling.</div></div></div>
+                                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">Module 3: React</button></h2><div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#curriculumAccordion"><div class="accordion-body">Component-based UI development.</div></div></div>
+                                    <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">Module 4: Full Stack Integration</button></h2><div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#curriculumAccordion"><div class="accordion-body">Connecting frontend and backend, and deployment.</div></div></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="instructor" role="tabpanel">
+                                <h4>About the Instructor</h4>
+                                <p><strong>Mr. Ranjith</strong> is a full-stack developer with a strong background in the JavaScript ecosystem. He has successfully delivered multiple large-scale MERN projects and enjoys helping others master this powerful stack.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card shadow-sm course-detail-card">
+                            <img src="../IMAGES/Mern.jpeg" class="card-img-top" alt="MERN Stack Course">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Course Features</h5>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="mb-2"><i class="bi bi-clock text-primary me-2"></i><strong>Duration:</strong> 3 Months</li>
+                                    <li class="mb-2"><i class="bi bi-person-video3 text-primary me-2"></i><strong>Trainer:</strong> Mr. Ranjith</li>
+                                    <li class="mb-2"><i class="bi bi-bar-chart-steps text-primary me-2"></i><strong>Skill Level:</strong> Intermediate</li>
+                                    <li class="mb-2"><i class="bi bi-patch-check text-primary me-2"></i><strong>Certificate:</strong> Yes</li>
+                                </ul>
+                                <div class="d-grid mt-4">
+                                    <a href="contact.html" class="btn btn-primary login-btn">Contact Us to Enroll</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================================================ -->
+    <!-- RELATED COURSES SECTION -->
+    <!-- ================================================ -->
+    <section class="related-courses-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Related Courses</h2>
+                <p class="lead text-muted">Explore other programs you might be interested in.</p>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Course Card 1: Java Full Stack -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <img src="../IMAGES/Javaimage.jpeg" class="card-img-top" alt="Java Full Stack Course">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Java Full Stack</h5>
+                            <a href="java-full-stack.html" class="btn btn-outline-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course Card 2: Python -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <img src="../IMAGES/python-programming-3840x2160-16102.jpg" class="card-img-top" alt="Python with Data Science Course">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Python Full Stack</h5>
+                            <a href="python-data-science.html" class="btn btn-outline-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Course Card 4: Frontend -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm course-card">
+                        <img src="../IMAGES/frontenddeveloper.jpeg" class="card-img-top" alt="Frontend Development Course">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Frontend Development</h5>
+                            <a href="frontend-development.html" class="btn btn-outline-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================ -->
+    <!-- FOOTER -->
+    <!-- ================================================ -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="../JAVASCRIPT/components.js"></script>
+
+</body>
+</html>
